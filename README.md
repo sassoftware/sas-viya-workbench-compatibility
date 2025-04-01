@@ -43,8 +43,8 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Known Compability Chart
 
-| Python| Dependency | Version | Installs | Validated | Vulnerability Scan |
-| -------- | ------- | ------- | ------- | ------- |
+| Python | Dependency | Version | Installs | Validated | Vulnerability Scan |
+| ------ | ---------- | ------- | -------- | --------- | ------------------ |
 | Patterns | 0.3 | ✅ | ✅ | ✅ |
 | **Pillow** | **11.2.0** | ✅ | ✅ | ✅ |
 | amazon-textract-caller | 0.2.4 | ✅ | ✅ | ✅ |

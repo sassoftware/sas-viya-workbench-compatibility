@@ -1,9 +1,5 @@
-def inc(x):
-    return x + 1
-
-
-def test_answer():
-    assert inc(3) == 4
+def test_baseline():
+    assert True
 
 
 import os
@@ -25,7 +21,7 @@ def fit_model(X_train, y_train, X_test, y_test, model):
 
 
 def test_decision_tree():
-    workspace=f'{os.environ["WORKSPACE"]}/goodlist/data/'
+    workspace=f'{os.environ["WORKSPACE"]}/sas-viya-workbench-compatibility/data/'
     heart_df=pd.read_csv(workspace+'heart_disease.csv')
     heart_df.shape
 

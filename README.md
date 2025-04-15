@@ -16,9 +16,10 @@ If you receive out-of-memory errors, delete the python files in `/workspaces/myf
 In Workbench, clone this repo then run:
 
 ```
+git clone https://github.com/sassoftware/sas-viya-workbench-compatibility/edit/main/README.md
 cd sas-viya-workbench-compatibility
-pip install -i requirements.txt
-run-tests.py
+pip install -r requirements.txt
+./run-tests.py
 ```
 
 As the tests run, they generate a large amount of output.

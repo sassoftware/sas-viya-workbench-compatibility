@@ -69,7 +69,7 @@ results.sort()
 
 
 ofile = open('goodlist.md', 'w')
-ofile.write("""| Package | Version | Installs | Validated¹ | Vulnerability Scan² |
+ofile.write("""| Package | Version | Installs | Validated[^1] | Vulnerability Scan[^2] |
 | ------- | ------- | -------- | ---------- | ------------------- |
 """            
             )
@@ -103,9 +103,9 @@ for r in results:
 
 ofile.write("""
 
-¹: A component is "validated" if all of the tests in its respective test case folder run without any errors or failed assertions. It is possible that there are use cases not covered by the test cases, so compatibility is suggested, not guaranteed. If you encounter incompatibility when using a library, please report it so we can update our test cases!
+[^1]: A component is "validated" if all of the tests in its respective test case folder run without any errors or failed assertions. It is possible that there are use cases not covered by the test cases, so compatibility is suggested, not guaranteed. If you encounter incompatibility when using a library, please report it so we can update our test cases!
 
-²:  Vulnerability results pass if there are no high or critical CVEs for the component as of %s per the results of the scanning tool "pip-audit".
+[^2]:  Vulnerability results pass if there are no high or critical CVEs for the component as of %s per the results of the scanning tool "pip-audit".
 """%datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 ofile.close()
 

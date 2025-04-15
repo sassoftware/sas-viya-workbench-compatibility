@@ -58,7 +58,7 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Known Compability Chart
 
-| Package | Version | Installs | Validated¹ | Vulnerability Scan² |
+| Package | Version | Installs | Validated[^1] | Vulnerability Scan[^2] |
 | ------- | ------- | -------- | ---------- | ------------------- |
 | Patterns | 0.3 | ✅ | ✅ | ✅ |
 | **Pillow** | **11.2.0** | ✅ | ✅ | ✅ |
@@ -110,6 +110,6 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 | tqdm | 4.67.1 | ✅ | ✅ | ✅ |
 | transformers | 4.50.3 | ✅ | ✅ | ✅ |
 
-¹: A component is "validated" if all of the tests in its respective test case folder run without any errors or failed assertions. It is possible that there are use cases not covered by the test cases, so compatibility is suggested, not guaranteed. If you encounter incompatibility when using a library, please report it so we can update our test cases!
+[^1]: A component is "validated" if all of the tests in its respective test case folder run without any errors or failed assertions. It is possible that there are use cases not covered by the test cases, so compatibility is suggested, not guaranteed. If you encounter incompatibility when using a library, please report it so we can update our test cases!
 
-²:  Vulnerability results pass if there are no high or critical CVEs for the component as of 2025-04-14 15:16:45 per the results of the scanning tool "pip-audit".
+[^2]:  Vulnerability results pass if there are no high or critical CVEs for the component as of 2025-04-14 15:16:45 per the results of the scanning tool "pip-audit".

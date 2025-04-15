@@ -70,7 +70,7 @@ results.sort()
 
 ofile = open('goodlist.md', 'w')
 ofile.write("""| Package | Version | Installs | Validated[^1] | Vulnerability Scan[^2] |
-| ------- | ------- | -------- | ---------- | ------------------- |
+| ------- | ------- | -------- | ------------- | ---------------------- |
 """            
             )
 for r in results:

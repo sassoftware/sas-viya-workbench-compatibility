@@ -19,7 +19,7 @@ In Workbench, clone this repo then run:
 git clone https://github.com/sassoftware/sas-viya-workbench-compatibility
 cd sas-viya-workbench-compatibility
 pip install -r requirements.txt
-./run-tests.py
+python run_tests.py
 ```
 
 As the tests run, they generate a large amount of output.
@@ -57,7 +57,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting cont
 
 This project is licensed under the [Apache 2.0 License](LICENSE).
 
-## Known Compability Chart
+## Known Compatibility Chart
 
 | Package | Version | Installs | Validated[^1] | Vulnerability Scan[^2] |
 | ------- | ------- | -------- | ------------- | ---------------------- |

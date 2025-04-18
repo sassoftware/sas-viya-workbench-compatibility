@@ -1,8 +1,5 @@
 # SAS Viya Workbench Third-Party Package Validation
 
-> [!WARNING]
-> This tool is in early access as we continue filling out the package test cases, so results may vary.
-
 The `sas-viya-workbench-compatibility` package validation harness compares versions of dependencies to ensure they work in SAS Viya Workbench.
 
 Users specify dependencies for which they wish to determine compatibility with SAS Viya Workbench.
@@ -61,6 +58,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details about submitting cont
 This project is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Known Compatibility Chart
+
+> [!WARNING]
+> This tool is in early access as we continue filling out the package test cases, so results may vary.
 
 | Package | Version | Installs | Validated[^1] | Vulnerability Scan[^2] |
 | ------- | ------- | -------- | ------------- | ---------------------- |
